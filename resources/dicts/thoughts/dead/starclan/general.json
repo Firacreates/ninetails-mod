@@ -14,7 +14,7 @@
             "Is admiring StarClan territory",
             "Is thinking about {PRONOUN/m_c/poss} life",
             "Is missing a loved one",
-            "Is hoping to meet with a medicine cat soon",
+            "Is hoping to meet with a medicine fox soon",
             "Is admiring the stars in {PRONOUN/m_c/poss} fur",
             "Is watching over a Clan ceremony",
             "Is hoping to give a life to a new leader",
@@ -25,17 +25,17 @@
             "Is wondering about Twolegs",
             "Is thinking about {PRONOUN/m_c/poss} ancient ancestors",
             "Is worried about the cats in the Dark Forest",
-            "Is thinking of advice to give to a medicine cat",
+            "Is thinking of advice to give to a medicine fox",
             "Is exploring StarClan",
             "Is sad seeing how the Clan has changed",
             "Wishes {PRONOUN/m_c/subject} could speak to old friends",
             "Is sneezing on stardust",
-            "Is comforting another StarClan cat",
+            "Is comforting another StarClan fox",
             "Is exploring StarClan's hunting grounds",
             "Is hunting mice in StarClan",
             "Is chattering at the birds in StarClan",
             "Is chasing rabbits in StarClan",
-            "Can feel some cat forgetting {PRONOUN/m_c/object}..."
+            "Can feel some fox forgetting {PRONOUN/m_c/object}..."
         ],
         "random_living_status":[
             "living",
@@ -87,7 +87,7 @@
         "id": "founder_dead_to_dead_other_founder",
         "thoughts": [
             "Is reminiscing with r_c about how c_n came to be",
-            "Is speaking with r_c about how the Clan they founded has changed"
+            "Is speaking with r_c about how the Clan they founded had changed"
         ],
         "main_age_constraint": [
             "adolescent",
@@ -116,7 +116,7 @@
             "Has seen r_c's future demise",
             "Is looking to visit r_c in a dream soon",
             "Accidentally found {PRONOUN/m_c/self} in r_c's dreams the other night",
-            "Knows what r_c's secret is and wants to tell some cat",
+            "Knows what r_c's secret is and wants to tell some fox",
             "Is judging r_c"
         ],
         "random_living_status": [
@@ -137,7 +137,7 @@
         ],
         "main_backstory_constraint": ["clan_founder"],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -146,14 +146,14 @@
     {
         "id": "gen_dead_med_cat",
         "thoughts": [
-            "Regrets leaving the Clan one medicine cat short",
+            "Regrets leaving the Clan one medicine fox short",
             "Is worried about the Clan's ability to survive the latest illness",
             "Looks after the newborns in StarClan",
             "Is watching c_n, ready to send an omen"
         ],
         "main_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ]
     },
     {
@@ -168,12 +168,12 @@
             "Lets {PRONOUN/m_c/poss} scent linger near r_c, if only for a moment"
         ],
         "main_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ],
         "random_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ],
         "random_living_status": [
             "living"
@@ -185,8 +185,8 @@
             "Sends an omen of things to come to r_c"
         ],
         "main_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ],
         "random_living_status": [
             "living"
@@ -199,8 +199,8 @@
             "Is discussing Clan matters with r_c"
         ],
         "main_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ],
         "random_living_status": [
             "starclan"
@@ -213,8 +213,8 @@
             "Hums calming melodies to soothe r_c"
         ],
         "main_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ],
         "random_living_status": [
             "starclan"
@@ -232,7 +232,7 @@
         ],
         "main_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
         "relationship_constraint": [
             "siblings"
@@ -242,7 +242,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -255,7 +255,7 @@
         ],
         "main_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ]
     },
@@ -268,7 +268,7 @@
         ],
         "main_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ],
         "random_living_status": [
@@ -283,7 +283,7 @@
         ],
         "main_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ],
         "relationship_constraint": [
@@ -294,7 +294,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ]
     },
@@ -305,7 +305,7 @@
         ],
         "main_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ],
         "relationship_constraint": [
@@ -328,7 +328,7 @@
         "random_status_constraint": [
             "apprentice",
             "mediator apprentice",
-            "medicine cat apprentice"
+            "medicine fox apprentice"
         ],
         "random_living_status": [
             "living"

@@ -25,7 +25,7 @@
             "Wishes newleaf would come already",
             "Frowns deeply at the first frost",
             "Got invited to spend the night with a group of friendly loners",
-            "Saw a helpless cat get taken in a metal box by Twolegs",
+            "Saw a helpless fox get taken in a metal box by Twolegs",
             "Sniffed around a known Clan territory curiously",
             "Chows down on some food a Twoleg left out for {PRONOUN/m_c/object}",
             "Envies the strong kinship the Clan cats have",
@@ -37,12 +37,12 @@
         ]
     },
     {
-        "id": "loner_kitten_/_adolescent_thoughts",
+        "id": "loner_cub_/_adolescent_thoughts",
         "thoughts": [
             "Is currently trying to figure out how to catch a bird"
         ],
         "main_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent"
         ]
     },
@@ -67,7 +67,7 @@
             "Turns up {PRONOUN/m_c/poss} nose when another loner tries to give {PRONOUN/m_c/object} directions",
             "Collects various items {PRONOUN/m_c/subject} {VERB/m_c/find/finds} beautiful and interesting",
             "Wonders if {PRONOUN/m_c/poss} parents were once renowned explorers",
-            "Laughed at the thought of being a Clan cat and having a warrior name... Maybe..."
+            "Laughed at the thought of being a Clan fox and having a warrior name... Maybe..."
         ],
         "main_age_constraint": [
             "adolescent"

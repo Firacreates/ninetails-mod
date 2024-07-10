@@ -1,6 +1,6 @@
 [
     {
-      "id": "elder_gen_to_dead_gen",
+        "id": "elder_gen_dead",
         "thoughts": [
             "Is telling stories about r_c",
             "Wishes that r_c were still alive",
@@ -47,7 +47,7 @@
             "Doesn't like how times have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
             "Is feeling rather cross today",
             "Thinks that times have changed for the better since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
-            "Is recalling something no other cat remembers anymore",
+            "Is recalling something no other fox remembers anymore",
             "Is grumbling about the weather",
             "Feels {PRONOUN/m_c/poss} bones creak as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks}"
         ],
@@ -56,27 +56,27 @@
         ]
     },
     {
-      "id": "elder_to_alive_younger_cats",
+        "id": "elder_alive_younger_cats",
         "thoughts": [
-          "Is giving advice to the younger cats",
-          "Is bossing the younger cats around",
+            "Is giving advice to younger cats",
+            "Is bossing around the younger cats",
             "Is telling scary stories to the younger cats",
-          "Is sharing wisdom with the younger cats that is... less than helpful",
-          "Is recounting daring expeditions for the younger cats",
-            "Is telling a rather tall tale to any cat who will listen"
+            "Is sharing wisdom with younger cats that is... less than helpful",
+            "Is recounting daring expeditions for the younger cats to hear",
+            "Is telling a rather tall tale to any fox who will listen"
         ],
         "main_age_constraint": [
             "senior adult",
             "senior"
         ],
         "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent",
             "young adult"
         ]
     },
     {
-      "id": "elder_to_alive_apprentice",
+        "id": "elder_alive_apprentice",
         "thoughts": [
             "Is requesting an apprentice's help with {PRONOUN/m_c/poss} ticks",
             "Is asking apprentices to help check {PRONOUN/m_c/object} for ticks"
@@ -142,9 +142,9 @@
     {
         "id": "gen_retired_disabled_to_med_thoughts",
         "thoughts": [
-            "Wonders if the medicine cat needs any help today",
+            "Wonders if the medicine fox needs any help today",
             "Offers to help r_c sort herbs",
-            "Wonders if {PRONOUN/m_c/subject} could've been a medicine cat with r_c instead of retiring",
+            "Wonders if {PRONOUN/m_c/subject} could've been a medicine fox with r_c instead of retiring",
             "Brought r_c some fresh-kill"
         ],
         "perm_conditions": {
@@ -156,7 +156,7 @@
             "elder"
         ],
         "random_status_constraint":[
-            "medicine cat"
+            "medicine fox"
         ]
     },
     {
@@ -176,7 +176,7 @@
             "elder"
         ],
         "random_status_constraint":[
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -194,8 +194,8 @@
             "elder"
         ],
         "random_status_constraint": [
-            "medicine cat apprentice",
-            "medicine cat"
+            "medicine fox apprentice",
+            "medicine fox"
         ]
     },
     {
@@ -296,8 +296,8 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "medicine cat apprentice",
-            "medicine cat"
+            "medicine fox apprentice",
+            "medicine fox"
         ]
     },
 
@@ -342,7 +342,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ]
     },
@@ -363,8 +363,8 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "medicine cat apprentice",
-            "medicine cat"
+            "medicine fox apprentice",
+            "medicine fox"
         ]
     },
     {
@@ -402,8 +402,8 @@
             "elder"
         ],
         "random_status_constraint": [
-            "medicine cat apprentice",
-            "medicine cat"
+            "medicine fox apprentice",
+            "medicine fox"
         ]
     },
     {
@@ -447,7 +447,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ]
     },
@@ -494,7 +494,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "medicine cat apprentice",
+            "medicine fox apprentice",
             "mediator apprentice"
         ]
     },
@@ -537,7 +537,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -596,7 +596,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -654,7 +654,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -677,7 +677,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -719,7 +719,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -773,8 +773,8 @@
             "elder"
         ],
         "random_status_constraint": [
-            "medicine cat",
-            "medicine cat apprentice"
+            "medicine fox",
+            "medicine fox apprentice"
         ]
     }
 ]

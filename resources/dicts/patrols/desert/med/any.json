@@ -2,7 +2,7 @@
     {
         "patrol_id": "dst_med_soloripples1",
         "biome": ["desert"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -10,7 +10,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -35,7 +35,7 @@
                 ]
             },
             {
-                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} greeted with the vision of a cat {PRONOUN/p_l/subject} had failed to save looking content and happy in StarClan, saying that {PRONOUN/p_l/subject} {VERB/p_l/were/was} not at fault for their death. {PRONOUN/p_l/subject/CAP} {VERB/p_l/feel/feels} unburdened and at peace after receiving that vision.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} greeted with the vision of a fox {PRONOUN/p_l/subject} had failed to save looking content and happy in StarClan, saying that {PRONOUN/p_l/subject} {VERB/p_l/were/was} not at fault for their death. {PRONOUN/p_l/subject/CAP} {VERB/p_l/feel/feels} unburdened and at peace after receiving that vision.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -69,7 +69,7 @@
     {
         "patrol_id": "dst_med_app_herblocation1",
         "biome": ["desert"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -77,8 +77,8 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -138,7 +138,7 @@
     {
         "patrol_id": "dst_med_app_herblocation2",
         "biome": ["desert"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -146,8 +146,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -188,14 +188,14 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l, fueled by desperation and unable to leave the Clan because of the heat of greenleaf withering c_n, ingests a piece of sacred cacti hoping to trigger a vision.",
-        "decline_text": "At that exact moment a cat walks into the medicine cat den looking for p_l. {PRONOUN/p_l/subject/CAP} {VERB/p_l/put/puts} the piece of cacti back, having to wait for a better time.",
+        "decline_text": "At that exact moment a fox walks into the medicine fox den looking for p_l. {PRONOUN/p_l/subject/CAP} {VERB/p_l/put/puts} the piece of cacti back, having to wait for a better time.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -259,7 +259,7 @@
                 ]
             },
             {
-                "text": "r_c has an unexpected severe reaction to the cacti, {PRONOUN/r_c/poss} throat swelling shut in seconds. Unable to call for help, {PRONOUN/p_l/subject} fade away toward StarClan. c_n will have to mourn one more cat.",
+                "text": "r_c has an unexpected severe reaction to the cacti, {PRONOUN/r_c/poss} throat swelling shut in seconds. Unable to call for help, {PRONOUN/p_l/subject} fade away toward StarClan. c_n will have to mourn one more fox.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -289,14 +289,14 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A fox grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -420,13 +420,13 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that greenleaf is on the horizon. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n stock up.",
-        "decline_text": "A cat grabs p_l's attention before {PRONOUN/p_l/subject} can leave camp.",
+        "decline_text": "A fox grabs p_l's attention before {PRONOUN/p_l/subject} can leave camp.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -444,7 +444,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to carry everything back to camp, but {PRONOUN/p_l/subject} {VERB/p_l/stick/sticks} the location in {PRONOUN/p_l/poss} mind as a place to return to.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to cart everything back to camp, but {PRONOUN/p_l/subject} {VERB/p_l/stick/sticks} the location in {PRONOUN/p_l/poss} mind as a place to return to.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -458,7 +458,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -473,7 +473,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -522,13 +522,13 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that greenleaf is on the horizon. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n replenish their stocks of it. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A fox grabs p_l's attention before they can leave.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -562,7 +562,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -578,7 +578,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -644,14 +644,14 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A fox grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -775,13 +775,13 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is here. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n stock up on it.",
-        "decline_text": "A cat grabs p_l's attention before {PRONOUN/p_l/subject} can leave camp.",
+        "decline_text": "A fox grabs p_l's attention before {PRONOUN/p_l/subject} can leave camp.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -799,7 +799,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to carry everything back to camp, but they stick the location in {PRONOUN/p_l/poss} mind as a place to return to.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to cart everything back to camp, but they stick the location in {PRONOUN/p_l/poss} mind as a place to return to.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -813,7 +813,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -828,7 +828,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -877,13 +877,13 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is here. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n won't run out of it. {PRONOUN/p_l/subject/CAP} take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A fox grabs p_l's attention before they can leave.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -917,7 +917,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -933,7 +933,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -999,14 +999,14 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A fox grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -1130,13 +1130,13 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-fall is here. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n replenish their stocks of it.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "decline_text": "A fox grabs p_l's attention before they can leave camp.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -1154,7 +1154,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to carry everything back to camp, but they stick the location in {PRONOUN/p_l/poss} mind as a place to return to.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to cart everything back to camp, but they stick the location in {PRONOUN/p_l/poss} mind as a place to return to.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1168,7 +1168,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -1183,7 +1183,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists to {PRONOUN/s_c/self} that {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to keep going - {PRONOUN/s_c/subject} just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until {PRONOUN/s_c/subject} {VERB/s_c/find/finds} those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1232,13 +1232,13 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-fall is here. As the only reliable cure for yellowcough, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} determined that c_n replenish their stocks of it. {PRONOUN/p_l/subject/CAP} take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A fox grabs p_l's attention before they can leave.",
         "chance_of_success": 15,
         "success_outcomes": [
             {
@@ -1272,7 +1272,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine fox visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1288,7 +1288,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine fox persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1346,7 +1346,7 @@
     {
         "patrol_id": "dst_med_rescue1",
         "biome": ["desert"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["new_cat"],
         "patrol_art": "med_general_intro",
@@ -1354,7 +1354,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1399,7 +1399,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [1, 6]
@@ -1442,7 +1442,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other fox bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1484,7 +1484,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1567,7 +1567,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
@@ -1609,7 +1609,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other fox bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1651,7 +1651,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1734,7 +1734,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
@@ -1776,7 +1776,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other fox bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1818,7 +1818,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1901,7 +1901,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
@@ -1943,7 +1943,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other fox bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1985,7 +1985,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -2061,7 +2061,7 @@
     {
         "patrol_id": "dst_med_appfirstsign1",
         "biome": ["desert"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -2069,8 +2069,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },

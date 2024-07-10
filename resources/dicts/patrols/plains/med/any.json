@@ -2,7 +2,7 @@
     {
         "patrol_id": "pln_med_soloripples1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_soloripples",
@@ -19,7 +19,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "As p_l looks into the puddle, {PRONOUN/p_l/subject} {VERB/p_l/are/is} greeted by an intense vision. {PRONOUN/p_l/subject/CAP} {VERB/p_l/drop/drops} what {PRONOUN/p_l/subject} {VERB/p_l/are/is} doing and {VERB/p_l/race/races} back to the camp to tell and consult with {PRONOUN/p_l/poss} leader.",
+                "text": "As p_l looks into the puddle, they are greeted by an intense vision. They drop what they are doing and race back to the camp to tell and consult with their leader.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -33,7 +33,7 @@
                 ]
             },
             {
-                "text": "They are greeted with the vision of a cat they had failed to save looking content and happy in StarClan, saying that they were not at fault for their death. They feel unburdened and at peace after receiving that vision.",
+                "text": "They are greeted with the vision of a fox they had failed to save looking content and happy in StarClan, saying that they were not at fault for their death. They feel unburdened and at peace after receiving that vision.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -58,7 +58,7 @@
     {
         "patrol_id": "pln_med_clair1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -97,7 +97,7 @@
     {
         "patrol_id": "pln_med_herblocation1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -105,8 +105,8 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -166,7 +166,7 @@
     {
         "patrol_id": "pln_med_herblocation2",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "pln_med_herblocation2",
@@ -174,7 +174,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -207,7 +207,7 @@
     {
         "patrol_id": "pln_med_appfirstsign1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -215,7 +215,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -242,14 +242,14 @@
     {
         "patrol_id": "pln_med_rainygathering1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_rainygathering",
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,
@@ -280,7 +280,7 @@
                 ]
             },
             {
-                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off, a rather motley assortment of herbs refreshing the medicine cat den's stocks.",
+                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off, a rather motley assortment of herbs refreshing the medicine fox den's stocks.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -352,7 +352,7 @@
     {
         "patrol_id": "pln_med_gatheringcobwebs1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -369,7 +369,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l finds plenty of cobwebs, gently collecting them on the ends of sticks. No cat will have the chance to bleed out - not now, with so many cobwebs to staunch their wounds!",
+                "text": "p_l finds plenty of cobwebs, gently collecting them on the ends of sticks. No fox will have the chance to bleed out - not now, with so many cobwebs to staunch their wounds!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"]
@@ -392,7 +392,7 @@
     {
         "patrol_id": "pln_med_cobweblesson1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_cobweblesson",
@@ -400,8 +400,8 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -461,7 +461,7 @@
     {
         "patrol_id": "pln_med_cobwebhelp1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -472,12 +472,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "c_n can never have enough cobwebs, p_l instructs {PRONOUN/p_l/poss} team, leading them out to search for them.",
+        "intro_text": "c_n can never have enough cobwebs, p_l instructs their team, leading them out to search for them.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l mrrps with laughter, watching r_c parade around with such a big bundle of cobwebs that {PRONOUN/r_c/subject} {VERB/r_c/keep/keeps} colliding with things in {PRONOUN/r_c/poss} path {PRONOUN/r_c/subject} can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine cat that leads them back to camp.",
+                "text": "p_l mrrps with laughter, watching r_c parade around with such a big bundle of cobwebs that they keep colliding with things in their path they can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine fox that leads them back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -499,7 +499,7 @@
                 ]
             },
             {
-                "text": "The patrol brings back a truly massive haul, and return in good humor, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
+                "text": "The patrol brings back a truly massive haul, and return in good humor, laughing as they set down their sticks of spun-up webbing in the medicine fox den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -521,7 +521,7 @@
                 ]
             },
             {
-                "text": "s_c's keen eyes have a knack for spotting the gossamer-thin strands of cobwebs, and with the patrol there to follow {PRONOUN/s_c/poss} lead, it's a very successful gathering mission.",
+                "text": "s_c's keen eyes have a knack for spotting the gossamer-thin strands of cobwebs, and with the patrol there to follow their lead, it's a very successful gathering mission.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -546,7 +546,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Can warriors not pay attention, even to something as simple as cobwebs?! p_l holds {PRONOUN/p_l/poss} breath and counts to ten before {PRONOUN/p_l/subject} dismiss the patrol, every found cobweb ruined, what little they did manage to find.",
+                "text": "Can warriors not pay attention, even to something as simple as cobwebs?! p_l holds their breath and counts to ten before they dismiss the patrol, every found cobweb ruined, what little they did manage to find.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -571,7 +571,7 @@
     {
         "patrol_id": "pln_med_gatheringhorsetail1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -588,7 +588,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine fox den.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"]
@@ -618,7 +618,7 @@
     {
         "patrol_id": "pln_med_horsetaillesson1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -626,8 +626,8 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -637,7 +637,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't know why horsetail plants lack leaves, but they encourage app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "p_l doesn't know why horsetail plants lack leaves, but they encourage app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine fox den.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -659,7 +659,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where app1 processes it down further into small stem sections that are easily stored, making a neat pile in the medicine cat den with them.",
+                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where app1 processes it down further into small stem sections that are easily stored, making a neat pile in the medicine fox den with them.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "horsetail"],
@@ -731,7 +731,7 @@
     {
         "patrol_id": "pln_med_horsetailhelp1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -747,7 +747,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den. Having other cats to help {PRONOUN/p_l/object} makes the patrol an easy afternoon's work.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine fox den. Having other cats to help them makes the patrol an easy afternoon's work.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -816,7 +816,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is distracted today, and it affects {PRONOUN/p_l/poss} work. The patrol is unsuccessful, and the cats snappy with each other.",
+                "text": "p_l is distracted today, and it affects their work. The patrol is unsuccessful, and the cats snappy with each other.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -841,7 +841,7 @@
     {
         "patrol_id": "pln_med_gatheringmoss1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringmoss",
@@ -851,12 +851,12 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the medicine den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather some more.",
-        "decline_text": "A cat requires {PRONOUN/p_l/poss} attention just as {PRONOUN/p_l/subject} go to leave. Moss will have to wait.",
+        "intro_text": "p_l notices that the moss in the medicine den is getting old. They need to go and gather some more.",
+        "decline_text": "A fox requires their attention just as they go to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l quickly makes {PRONOUN/p_l/poss} way to the best moss patch {PRONOUN/p_l/subject} {VERB/p_l/know/knows}. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} a bit of time slicing bits off with {PRONOUN/p_l/poss} claws, careful not to get any roots or dirt in the pile - once {PRONOUN/p_l/subject} {VERB/p_l/'re/'s} satisfied, {PRONOUN/p_l/subject} {VERB/p_l/take/takes} a moment to wrap {PRONOUN/p_l/poss} jaws around the heap, then make {PRONOUN/p_l/poss} way back to camp.",
+                "text": "p_l quickly makes their way to the best moss patch they know. They spend a bit of time slicing bits off with their claws, careful not to get any roots or dirt in the pile - once they're satisfied, they take a moment to wrap their jaws around the heap, then make their way back to camp.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["moss"]
@@ -864,7 +864,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When p_l gets to the best moss-gathering spot, {PRONOUN/p_l/subject} find that some animal has dug up most of the moss. {PRONOUN/p_l/subject/CAP}'ll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mouse-dung! When p_l gets to the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
                 "exp": 0,
                 "weight": 20
             }
@@ -873,7 +873,7 @@
     {
         "patrol_id": "pln_med_gatheringmoss2",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringmoss",
@@ -881,14 +881,14 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l notices that the moss in the medicine den is getting old, calling over app1, they set out to gather more.",
-        "decline_text": "A cat requires their attention just as they go to leave. Moss will have to wait.",
+        "decline_text": "A fox requires their attention just as they go to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -941,20 +941,20 @@
     {
         "patrol_id": "pln_med_gatheringmoss3",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringmoss",
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l notices that the moss in the medicine den is getting old. They need to go and gather some more and they take a warrior with them to help.",
-        "decline_text": "A cat requires their attention just as they go to leave. Moss will have to wait.",
+        "decline_text": "A fox requires their attention just as they go to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -1007,20 +1007,20 @@
     {
         "patrol_id": "pln_med_gatheringmoss4",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringmoss",
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l notices that the moss in the medicine den is getting old. They need to go and gather more so they call over some warriors to help them.",
-        "decline_text": "A cat requires their attention just as they go to leave. Moss will have to wait.",
+        "decline_text": "A fox requires their attention just as they go to leave. Moss will have to wait.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1059,7 +1059,7 @@
     {
         "patrol_id": "pln_med_gatheringrosemary1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringrosemary",
@@ -1067,14 +1067,14 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of their grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along app1 as their assistant for this trip, and the two cats head out in relative silence.",
-        "decline_text": "Just before the two can leave, a cat calls for their attention.",
+        "intro_text": "p_l has to attend to one of their grimmer jobs as a medicine fox - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along app1 as their assistant for this trip, and the two cats head out in relative silence.",
+        "decline_text": "Just before the two can leave, a fox calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1111,7 +1111,7 @@
     {
         "patrol_id": "pln_med_gatheringrosemary2",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_gatheringrosemary",
@@ -1122,8 +1122,8 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of {PRONOUN/p_l/poss} grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'re/'s} bringing along r_c as {PRONOUN/p_l/poss} assistant for this trip, and the two cats head out in relative silence.",
-        "decline_text": "Just before the two can leave, a cat calls for their attention.",
+        "intro_text": "p_l has to attend to one of their grimmer jobs as a medicine fox - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along r_c as their assistant for this trip, and the two cats head out in relative silence.",
+        "decline_text": "Just before the two can leave, a fox calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1144,7 +1144,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see r_c holding one of {PRONOUN/r_c/poss} paws off the ground. It seems that the other cat stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
+                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see r_c holding one of their paws off the ground. It seems that the other fox stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1160,7 +1160,7 @@
     {
         "patrol_id": "pln_med_discussion1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": [],
         "tags": [],
         "patrol_art": "gen_med_discussion",
@@ -1168,13 +1168,13 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and r_c head into the vast open grasslands to look for herbs, discussing the latest news.",
-        "decline_text": "It seems like some mischievous cat has gotten into the herb storage and they have to sort it all over again.",
+        "decline_text": "It seems like some mischievous fox has gotten into the herb storage and they have to sort it all over again.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1210,7 +1210,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They fail to interpret any signs, and are too irritated with each other to discuss any other news. Furthermore, neither cat manages to gather anything, the trip cut short by the discovery of ominous Twoleg things, piled in an abandoned, stinking heap.",
+                "text": "They fail to interpret any signs, and are too irritated with each other to discuss any other news. Furthermore, neither fox manages to gather anything, the trip cut short by the discovery of ominous Twoleg things, piled in an abandoned, stinking heap.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1228,14 +1228,14 @@
     {
         "patrol_id": "pln_med_cobwebapps1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic"],
-        "patrol_art": "gen_med_cobwebapps",
+        "patrol_art": "med_general_intro",
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [2, 2]
         },
@@ -1316,7 +1316,7 @@
     {
         "patrol_id": "pln_med_dwindleherbsgathering1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": [],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -1324,12 +1324,12 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "medicine cat": [1, 6],
+            "medicine fox": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and r_c take a look at their supply of herbs and decide to combine their efforts into searching for more. Two sets of trained eyes are better than one!",
-        "decline_text": "Unfortunately they are interrupted by a cat claiming they have an emergency. Runny dirt is not an emergency. Ugh.",
+        "decline_text": "Unfortunately they are interrupted by a fox claiming they have an emergency. Runny dirt is not an emergency. Ugh.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1355,7 +1355,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l and r_c decide on a little friendly competition - one medicine fox to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1425,14 +1425,14 @@
     {
         "patrol_id": "pln_med_cobwebapps2",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
-        "patrol_art": "gen_med_cobwebapps",
+        "patrol_art": "med_general_intro",
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [3, 3]
         },
@@ -1513,14 +1513,14 @@
     {
         "patrol_id": "pln_med_cobwebapps3",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
-        "patrol_art": "gen_med_cobwebapps",
+        "patrol_art": "med_general_intro",
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [4, 4]
         },
@@ -1601,14 +1601,14 @@
     {
         "patrol_id": "pln_med_cobwebapps4",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
-        "patrol_art": "gen_med_cobwebapps",
+        "patrol_art": "med_general_intro",
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [5, 5]
         },
@@ -1689,14 +1689,14 @@
     {
         "patrol_id": "pln_med_cobwebapps5",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
-        "patrol_art": "gen_med_cobwebapps",
+        "patrol_art": "med_general_intro",
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [6, 6]
         },
@@ -1777,7 +1777,7 @@
     {
         "patrol_id": "pln_med_cobwebapps6",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -1785,7 +1785,7 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [3, 3]
         },
@@ -1841,7 +1841,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine fox den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1866,7 +1866,7 @@
     {
         "patrol_id": "pln_med_cobwebapps7",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -1874,7 +1874,7 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [4, 4]
         },
@@ -1930,7 +1930,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine fox den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1955,7 +1955,7 @@
     {
         "patrol_id": "pln_med_cobwebapps8",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "med_general_intro",
@@ -1963,7 +1963,7 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [5, 5]
         },
@@ -2019,7 +2019,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine fox den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2044,7 +2044,7 @@
     {
         "patrol_id": "pln_med_cobwebapps9",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["six_apprentices"],
         "patrol_art": "med_general_intro",
@@ -2052,8 +2052,8 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,
@@ -2108,7 +2108,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine fox den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2133,7 +2133,7 @@
     {
         "patrol_id": "pln_med_mossapps1",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic"],
         "patrol_art": "gen_med_mossapps",
@@ -2141,7 +2141,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [2, 2]
         },
@@ -2151,7 +2151,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "There's nothing to apologize for! r_c bumps p_l's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "There's nothing to apologize for! r_c bumps p_l's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool fox to spend it with!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2222,7 +2222,7 @@
     {
         "patrol_id": "pln_med_mossapps2",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
         "patrol_art": "gen_med_mossapps",
@@ -2230,7 +2230,7 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [3, 3]
         },
@@ -2240,7 +2240,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Though the other cat of their group doesn't look thrilled, app1 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "Though the other fox of their group doesn't look thrilled, app1 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool fox to spend it with!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2311,7 +2311,7 @@
     {
         "patrol_id": "pln_med_mossapps3",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
         "patrol_art": "gen_med_mossapps",
@@ -2319,7 +2319,7 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [4, 4]
         },
@@ -2329,7 +2329,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool fox to spend it with!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2400,7 +2400,7 @@
     {
         "patrol_id": "pln_med_mossapps4",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_mossapps",
@@ -2408,12 +2408,12 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The apprentices are sent off into the territory to gather moss for the medicine cat den.",
+        "intro_text": "The apprentices are sent off into the territory to gather moss for the medicine fox den.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2489,7 +2489,7 @@
     {
         "patrol_id": "pln_med_mossapps5",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_mossapps",
@@ -2497,7 +2497,7 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [4, 4]
         },
@@ -2578,7 +2578,7 @@
     {
         "patrol_id": "pln_med_mossapps6",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
         "patrol_art": "gen_med_mossapps",
@@ -2586,7 +2586,7 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [5, 5]
         },
@@ -2596,7 +2596,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool fox to spend it with!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2667,7 +2667,7 @@
     {
         "patrol_id": "pln_med_mossapps7",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": [],
         "patrol_art": "gen_med_mossapps",
@@ -2675,7 +2675,7 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [5, 5]
         },
@@ -2756,7 +2756,7 @@
     {
         "patrol_id": "pln_med_mossapps8",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["romantic", "rom_two_apps"],
         "patrol_art": "gen_med_mossapps",
@@ -2764,7 +2764,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6],
             "all apprentices": [6, 6]
         },
@@ -2774,7 +2774,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "Though the others of their group don't look thrilled, app2 insists there's nothing to apologize for. app2 bumps app1's shoulder affectionately, brushing past them with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool fox to spend it with!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2845,7 +2845,7 @@
     {
         "patrol_id": "pln_med_mossapps9",
         "biome": ["plains"],
-        "season": ["any"],
+        "season": ["Any"],
         "types": ["herb_gathering"],
         "tags": ["six_apprentices"],
         "patrol_art": "gen_med_mossapps",
@@ -2853,7 +2853,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "medicine cat apprentice": [1, 6],
+            "medicine fox apprentice": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,

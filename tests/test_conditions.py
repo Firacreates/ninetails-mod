@@ -1,14 +1,13 @@
-import os
 import unittest
+
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+os.environ["SDL_AUDIODRIVER"] = "dummy"
 
 import ujson
 
 from scripts.cat.cats import Cat
 from scripts.conditions import medical_cats_condition_fulfilled
-
-os.environ["SDL_VIDEODRIVER"] = "dummy"
-os.environ["SDL_AUDIODRIVER"] = "dummy"
-
 
 class TestsMedCondition(unittest.TestCase):
     def test_fulfilled(self):
@@ -62,22 +61,23 @@ class TestsMedCondition(unittest.TestCase):
         self.assertTrue(medical_cats_condition_fulfilled(all_cats, 15))
 
 
+
 class TestsIllnesses(unittest.TestCase):
     def load_resources(self):
         resource_directory = "resources/dicts/conditions/"
 
-        illnesses = None
+        ILLNESSES = None
         with open(f"{resource_directory}Illnesses.json", 'r') as read_file:
-            illnesses = ujson.loads(read_file.read())
-        return illnesses
+            ILLNESSES = ujson.loads(read_file.read())
+        return ILLNESSES
 
 
 class TestInjury(unittest.TestCase):
     def load_resources(self):
         resource_directory = "resources/dicts/conditions/"
 
-        injuries = None
+        INJURIES = None
         with open(f"{resource_directory}Injuries.json", 'r') as read_file:
-            injuries = ujson.loads(read_file.read())
-        return injuries
+            INJURIES = ujson.loads(read_file.read())
+        return INJURIES
     

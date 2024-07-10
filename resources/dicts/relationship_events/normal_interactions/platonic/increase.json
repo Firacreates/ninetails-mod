@@ -158,8 +158,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
@@ -169,8 +169,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		]
@@ -202,7 +202,7 @@
 			"platonic": "increase"
 		},
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
@@ -216,10 +216,10 @@
 			"m_c hopes r_c will be {PRONOUN/m_c/poss} friend forever."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -234,7 +234,7 @@
 			"m_c decorates {PRONOUN/m_c/poss} nest with gifts that r_c brought {PRONOUN/m_c/object}."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",
@@ -242,8 +242,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
@@ -257,12 +257,12 @@
 			"m_c ask r_c what it's like to be in training."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -291,13 +291,13 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase",
@@ -312,7 +312,7 @@
 			"m_c is asking r_c where kits come from."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",
@@ -320,8 +320,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
@@ -406,15 +406,15 @@
 			"apprentice"
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		]
 	},
 	{
 		"id": "platonic_app_med5",
 		"interactions": [
 			"m_c gently grooms some cobwebs off r_c's fur.",
-			"m_c tells r_c that {PRONOUN/r_c/subject}'ll be an amazing medicine cat someday.",
-			"m_c believes in r_c, and reassures r_c that {PRONOUN/r_c/subject} made the right choice by becoming a medicine cat apprentice."
+			"m_c tells r_c that {PRONOUN/r_c/subject}'ll be an amazing medicine fox someday.",
+			"m_c believes in r_c, and reassures r_c that {PRONOUN/r_c/subject} made the right choice by becoming a medicine fox apprentice."
 		],
 		"relationship_constraint": [
 			"platonic_40"
@@ -423,7 +423,7 @@
 			"apprentice"
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		]
 	},
 	{
@@ -545,8 +545,8 @@
 			"r_c is a little hesitant to ask m_c to check on something minor, but knows that even though m_c can be grumpy sometimes, {PRONOUN/m_c/subject} always takes care of {PRONOUN/r_c/object}."
 		],
 		"main_status_constraint": [
-			"medicine cat",
-			"medicine cat apprentice"
+			"medicine fox",
+			"medicine fox apprentice"
 		],
 		"main_trait_constraint": [
 			"cold",

@@ -59,6 +59,17 @@
             "Show moons and seasons widget",
             "Displays Clan age and current Clan season on several pages.",
             false
+        ],
+        "freshkill": [
+            "Enable auto freshkill",
+            "With this setting on, no cat will ever go hungry and hunting patrols will not be needed",
+            true
+        ],
+        
+        "all accessories": [
+            "Enable all accessories",
+            "All cats will have all accessories available in their inventory",
+            false
         ]
     },
     "role": {
@@ -81,6 +92,16 @@
             "Allow warriors and elders to choose to become mediators",
             "Warriors and elders will have a chance to become mediators upon timeskip.",
             false
+        ],
+        "become_med": [
+            "Allow warriors and elders to choose to become medicine cats",
+            "Warriors and elders will have a chance to become medicine cats upon timeskip.",
+            false
+        ],
+        "become_queen": [
+            "Allow warriors and elders to choose to become queens",
+            "Warriors and elders will have a chance to become queens upon timeskip.",
+            false
         ]
     },
     "relation": {
@@ -91,7 +112,7 @@
         ],
         "same sex birth": [
             "Pregnancy ignores biology",
-            "Allow all cats to get pregnant despite their gender and all couples to birth kittens despite same-sex status.",
+            "Allow all cats to get pregnant despite their gender and all couples to birth cubs despite same-sex status.",
             false
         ],
         "same sex adoption": [
@@ -104,8 +125,8 @@
             ]
         ],
         "single parentage": [
-            "Allow cats to have kittens with an unknown second parent",
-            "Allow cats to have kittens with an unknown second biological parent. The cat will be listed as the only biological parent.",
+            "Allow cats to have cubs with an unknown second parent",
+            "Allow cats to have cubs with an unknown second biological parent. The cat will be listed as the only biological parent.",
             false
         ],
         "romantic with former mentor": [
@@ -173,7 +194,7 @@
         ],
         "herb gathering":[
             "Assisting with Herb Gathering",
-            "The Clan will focus on herb gathering, each medicine cat and medicine cat apprentice will gather additional herbs on each moonskip due to extra help from the warriors.",
+            "The Clan will focus on herb gathering, each medicine fox and medicine fox apprentice will gather additional herbs on each moonskip due to extra help from the warriors.",
             false,
             "herb_focus",
             "#herb_focus_button"

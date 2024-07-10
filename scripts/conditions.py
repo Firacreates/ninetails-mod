@@ -8,8 +8,8 @@ TODO: Docs
 
   # pylint: enable=line-too-long
 
-from scripts.cat.skills import SkillPath
 from scripts.game_structure.game_essentials import game
+from scripts.cat.skills import SkillPath
 
 
 def medical_cats_condition_fulfilled(all_cats,
@@ -25,10 +25,10 @@ def medical_cats_condition_fulfilled(all_cats,
     
     medical_cats = [i for i in all_cats if not i.dead and not i.outside and not
                                             i.not_working() and i.status in 
-                                            ["medicine cat", 
-                                             "medicine cat apprentice"]]
-    full_med = [i for i in medical_cats if i.status == "medicine cat"]
-    apprentices = [i for i in medical_cats if i.status == "medicine cat apprentice"]
+                                            ["medicine fox", 
+                                             "medicine fox apprentice"]]
+    full_med = [i for i in medical_cats if i.status == "medicine fox"]
+    apprentices = [i for i in medical_cats if i.status == "medicine fox apprentice"]
     
     total_exp = 0
     for cat in medical_cats:
@@ -36,7 +36,7 @@ def medical_cats_condition_fulfilled(all_cats,
     total_exp = total_exp * 0.003
     
     # Determine the total med number. Med cats with certain skill counts 
-    # as "more" of a med cat.  Only full medicine cat can have their skills have effect
+    # as "more" of a med cat.  Only full medicine fox can have their skills have effect
     total_med_number = len(apprentices) / 2
     for cat in full_med:
         if cat.skills.meets_skill_requirement(SkillPath.HEALER, 3):
@@ -91,7 +91,8 @@ class Illness:
                  medicine_mortality,
                  risks,
                  herbs=None,
-                 event_triggered=False):
+                 event_triggered=False,
+                 grief_cat=None):
         self.name = name
         self.severity = severity
         self.mortality = int(mortality)
@@ -105,6 +106,7 @@ class Illness:
 
         self.current_duration = duration
         self.current_mortality = mortality
+        self.grief_cat = grief_cat
 
         amount_per_med = get_amount_cat_for_one_medic(game.clan)
         if medical_cats_condition_fulfilled(game.cat_class.all_cats.values(),

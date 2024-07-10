@@ -25,7 +25,7 @@
 		"intensity": "low",
 		"interactions": [
 			"m_c is asking r_c to check {PRONOUN/m_c/object} for ticks.",
-			"m_c is happy to see r_c is the cat who is helping {PRONOUN/m_c/object} today."
+			"m_c is happy to see r_c is the fox who is helping {PRONOUN/m_c/object} today."
 		],
 		"main_status_constraint": [
 			"elder"
@@ -129,7 +129,7 @@
 			"m_c wants to snuggle with r_c."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
@@ -139,7 +139,7 @@
 			"m_c is hiding under a bush from r_c, but {PRONOUN/m_c/subject} can't stop giggling."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -153,10 +153,10 @@
 			"m_c takes a nap with r_c after a long day playing moss-ball."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase",
@@ -174,7 +174,7 @@
 			"m_c is demanding r_c's attention."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase:",
@@ -188,8 +188,8 @@
 			"m_c drops into the medicine den to ask r_c if {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} eaten yet."
 		],
 		"random_status_constraint": [
-			"medicine cat",
-			"medicine cat apprentice"
+			"medicine fox",
+			"medicine fox apprentice"
 		],
 		"reaction_random_cat": {
 			"comfortable": "increase",

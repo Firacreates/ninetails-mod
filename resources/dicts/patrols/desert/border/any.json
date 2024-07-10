@@ -44,7 +44,7 @@
                 ]
             },
             {
-                "text": "{PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a dog single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the dog away from c_n territory. Each booming bark could be the herald of their doom, each rancid breath the last thing {PRONOUN/s_c/subject} might ever smell, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
+                "text": "{PRONOUN/s_c/subject} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a dog single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the dog away from c_n territory. Each booming bark could be the herald of their doom, each rancid breath the last thing {PRONOUN/s_c/subject} might ever smell, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
                 "exp": 40,
                 "weight": 20,
                 "stat_trait": [
@@ -449,7 +449,7 @@
         "season": ["any"],
         "types": ["border"],
         "tags": [],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "Gen_bord_smalldog1",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
@@ -571,7 +571,7 @@
         "season": ["any"],
         "types": ["border"],
         "tags": [],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "Gen_bord_smalldog2",
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
@@ -653,7 +653,7 @@
         "season": ["any"],
         "types": ["border"],
         "tags": [],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "Gen_bord_smalldog3",
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},

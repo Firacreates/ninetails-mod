@@ -1,12 +1,13 @@
 from typing import List
 
-from scripts.cat.cats import Cat
 from scripts.debug_commands.command import Command
+
 from scripts.debug_commands.utils import add_output_line_to_log
+
 from scripts.game_structure.game_essentials import game
+from scripts.cat.cats import Cat
 
-
-class AddCatCommand(Command):
+class addCatCommand(Command):
     name = "add"
     description = "Add a cat"
     aliases = ["a"]
@@ -16,8 +17,7 @@ class AddCatCommand(Command):
         game.clan.add_cat(cat)
         add_output_line_to_log(f"Added {cat.name} with ID {cat.ID}")
 
-
-class RemoveCatCommand(Command):
+class removeCatCommand(Command):
     name = "remove"
     description = "Remove a cat"
     aliases = ["r"]
@@ -34,8 +34,7 @@ class RemoveCatCommand(Command):
                 return
         add_output_line_to_log(f"Could not find cat with name or ID {args[0]}")
 
-
-class ListCatsCommand(Command):
+class listCatsCommand(Command):
     name = "list"
     description = "List all cats"
     aliases = ["l"]
@@ -44,8 +43,7 @@ class ListCatsCommand(Command):
         for cat in Cat.all_cats_list:
             add_output_line_to_log(f"{cat.ID} - {cat.name}, {cat.status}, {cat.moons} moons old")
 
-
-class AgeCatsCommand(Command):
+class ageCatsCommand(Command):
     name = "age"
     description = "Age a cat"
     usage = "<cat name|id> [number]"
@@ -69,16 +67,17 @@ class AgeCatsCommand(Command):
                     add_output_line_to_log(f"{cat.name} is now {cat.moons} moons old")
 
 
+
 class CatsCommand(Command):
     name = "cats"
     description = "Manage Cats"
     aliases = ["cat"]
 
     subCommands = [
-        AddCatCommand(),
-        RemoveCatCommand(),
-        ListCatsCommand(),
-        AgeCatsCommand()
+        addCatCommand(),
+        removeCatCommand(),
+        listCatsCommand(),
+        ageCatsCommand()
     ]
 
     def callback(self, args: List[str]):

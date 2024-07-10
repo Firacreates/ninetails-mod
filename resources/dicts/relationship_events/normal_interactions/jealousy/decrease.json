@@ -27,16 +27,16 @@
 			"m_c always thought r_c had it all figured out, so {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} surprised when r_c asks for help."
 		],
 		"main_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice",
+			"medicine fox apprentice",
 			"warrior"
 		],
 		"random_status_constraint": [
 			"warrior",
 			"elder",
-			"medicine cat",
+			"medicine fox",
 			"mediator",
 			"deputy"
 		]
@@ -50,10 +50,10 @@
 		"main_status_constraint": [
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice",
+			"medicine fox apprentice",
 			"apprentice",
 			"mediator apprentice"
 		],
@@ -74,10 +74,10 @@
 		"main_status_constraint": [
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		],
 		"reaction_random_cat": {
 			"comfortable": "increase"

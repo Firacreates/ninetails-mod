@@ -2,18 +2,17 @@
 # -*- coding: ascii -*-
 """
 
- Please do not put this *unittest* in the tests/unittest GitHub action.
+ Please dont put this *unittest* in the tests/unittest github action.
  It is only for local use.
-HOWEVER,
- Please keep the raw python script, so it can be run by the tests/encoding_test GitHub action.
+HOWEVER
+ Please keep the raw python script, so it can be run by the tests/encoding_test github action.
 
 """
-import os
-import sys
 import unittest
-
 import ujson
 
+import os
+import sys
 
 def test():
     """Iterate through all files in 'resources'
@@ -46,7 +45,7 @@ def test():
 
 
 # THE UNITTEST IS ONLY FOR LOCAL USE
-# PLEASE DO NOT PUT THIS IN THE GITHUB ACTION
+# PLEASE DONT PUT THIS IN THE GITHUB ACTION
 class TestJsonValidity(unittest.TestCase):
     """Test that all files are json decodable."""
 
@@ -55,7 +54,6 @@ class TestJsonValidity(unittest.TestCase):
         with self.assertRaises(SystemExit) as cm:
             test()
         self.assertEqual(cm.exception.code, 0)
-
 
 if __name__ == "__main__":
     test()

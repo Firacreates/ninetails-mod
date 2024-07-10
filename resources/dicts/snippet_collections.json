@@ -87,7 +87,7 @@
         ["echoing snarls", "the snarl of a friend", "the snarls of an enemy", "snarling from the dark", "hissing", "the hiss of a friend", "an enemy's hiss"],
         ["wailing cries"],
         ["a thundering voice"],
-        ["a kit's mew", "the mewl of a newborn", "the squeal of kittens"],
+        ["a kit's mew", "the mewl of a newborn", "the squeal of cubs"],
         ["the sound of barking"],
         ["howling in the distance", "a distant howl of pain", "cats howling to the moon"],
         ["a monster roaring"],
@@ -120,7 +120,7 @@
     },
     "smell": {
       "general": [
-        ["the smell of the medicine cat den"],
+        ["the smell of the medicine fox den"],
         ["the scent of catmint"],
         ["the scent of another Clan"],
         ["the scent of someone long dead"],
@@ -349,7 +349,7 @@
     ["love", "care", "compassion", "cherishing", "affection"],
     ["curiosity", "inquisitiveness", "wonder", "wondering", "nosiness"],
     ["inspiration", "an idea", "an impluse"],
-    ["playfulness", "mischief", "friskiness", "impish energy", "roguishness", "kitten-like gaiety"],
+    ["playfulness", "mischief", "friskiness", "impish energy", "roguishness", "cub-like gaiety"],
     ["excitement", "thrill", "invigorated", "surprise", "exhilaration"],
     ["secrecy", "concealment", "stealth", "discretion", "subterfuge", "deceit"],
     ["guilt", "shame", "chagrin"],

@@ -108,15 +108,15 @@
 			"elder",
 			"warrior",
 			"mediator",
-			"medicine cat",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice"
+			"medicine fox apprentice"
 		],
 		"reaction_random_cat": {
 			"trust": "increase"
@@ -131,20 +131,20 @@
 			"m_c is feeling lost and asks r_c for advice on what to do."
 		],
 		"main_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
 			"elder",
 			"mediator",
-			"medicine cat",
+			"medicine fox",
 			"leader"
 		],
 		"reaction_random_cat": {
@@ -210,8 +210,8 @@
 			"m_c tells r_c about {PRONOUN/m_c/poss} last encounter with StarClan."
 		],
 		"main_status_constraint": [
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"leader"
 		],
 		"relationship_constraint": [
@@ -221,8 +221,8 @@
 			"elder",
 			"warrior",
 			"mediator",
-			"medicine cat apprentice",
-			"medicine cat",
+			"medicine fox apprentice",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
@@ -244,7 +244,7 @@
 		"random_status_constraint": [
 			"deputy",
 			"elder",
-			"medicine cat"
+			"medicine fox"
 		],
 		"reaction_random_cat": {
 			"trust": "increase"
@@ -258,12 +258,12 @@
 			"m_c asks r_c about a specific treatment method."
 		],
 		"main_status_constraint": [
-			"medicine cat apprentice",
-			"medicine cat"
+			"medicine fox apprentice",
+			"medicine fox"
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice",
-			"medicine cat"
+			"medicine fox apprentice",
+			"medicine fox"
 		],
 		"reaction_random_cat": {
 			"trust": "increase"
@@ -272,12 +272,12 @@
 	{
 		"id": "trust_med_inc_high2",
 		"interactions": [
-			"m_c observes r_c carefully attending to any cat that needs help.",
+			"m_c observes r_c carefully attending to any fox that needs help.",
 			"m_c feels like {PRONOUN/m_c/subject} can count on r_c to give {PRONOUN/m_c/object} the best treatment possible."
 		],
 		"random_status_constraint": [
-			"medicine cat apprentice",
-			"medicine cat"
+			"medicine fox apprentice",
+			"medicine fox"
 		]
 	}
 ]

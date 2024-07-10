@@ -13,7 +13,7 @@
             "Is looking at the forest, daydreaming about hunting a mouse",
             "Is hunting for a gift for {PRONOUN/m_c/poss} housefolk",
             "Failed to catch prey with {PRONOUN/m_c/poss} poor crouch",
-            "Is running away from a Clan cat",
+            "Is running away from a Clan fox",
             "Is hiding from a dog",
             "Is being friendly with {PRONOUN/m_c/poss} housefolk's dog",
             "Is peering at a fish tank",
@@ -88,7 +88,7 @@
         ]
     },
     {
-        "id": "kittypet_kitten_and_adolescent_thoughts",
+        "id": "kittypet_cub_and_adolescent_thoughts",
         "thoughts": [
             "Is currently trying to figure out how to catch a bird",
             "Plays with a crinkly ball",
@@ -101,7 +101,7 @@
             "Wonders if {PRONOUN/m_c/poss} littermates are nearby"
         ],
         "main_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent"
         ]
     },
