@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
 import os
-
 import pygame
-import pygame_gui
 
+from scripts.utility import scale
+
+from .Screens import Screens
+
+from scripts.utility import get_text_box_theme, shorten_text_to_fit
 from scripts.cat.cats import Cat
 from scripts.game_structure import image_cache
+import pygame_gui
+from scripts.game_structure.image_button import UIImageButton, UITextBoxTweaked
 from scripts.game_structure.game_essentials import game, screen_x, screen_y, MANAGER
-from scripts.game_structure.ui_elements import UIImageButton, UITextBoxTweaked
-from scripts.utility import get_text_box_theme, shorten_text_to_fit
-from scripts.utility import scale
-from .Screens import Screens
 
 
 class RoleScreen(Screens):
@@ -52,7 +53,7 @@ class RoleScreen(Screens):
                 self.the_cat.status_change("warrior", resort=True)
                 self.update_selected_cat()
             elif event.ui_element == self.switch_med_cat:
-                self.the_cat.status_change("medicine cat", resort=True)
+                self.the_cat.status_change("medicine fox", resort=True)
                 self.update_selected_cat()
             elif event.ui_element == self.retire:
                 self.the_cat.status_change("elder", resort=True)
@@ -66,7 +67,7 @@ class RoleScreen(Screens):
                 self.the_cat.status_change("apprentice", resort=True)
                 self.update_selected_cat()
             elif event.ui_element == self.switch_med_app:
-                self.the_cat.status_change("medicine cat apprentice", resort=True)
+                self.the_cat.status_change("medicine fox apprentice", resort=True)
                 self.update_selected_cat()
             elif event.ui_element == self.switch_mediator_app:
                 self.the_cat.status_change("mediator apprentice", resort=True)
@@ -205,13 +206,13 @@ class RoleScreen(Screens):
         paths = {
             "leader": "leader_icon.png",
             "deputy": "deputy_icon.png",
-            "medicine cat": "medic_icon.png",
-            "medicine cat apprentice": "medic_app_icon.png",
+            "medicine fox": "medic_icon.png",
+            "medicine fox apprentice": "medic_app_icon.png",
             "mediator": "mediator_icon.png",
             "mediator apprentice": "mediator_app_icon.png",
             "warrior": "warrior_icon.png",
             "apprentice": "warrior_app_icon.png",
-            "kitten": "kit_icon.png",
+            "cub": "kit_icon.png",
             "newborn": "kit_icon.png",
             "elder": "elder_icon.png",
         }
@@ -308,7 +309,7 @@ class RoleScreen(Screens):
             self.switch_med_app.disable()
             self.switch_warrior_app.disable()
             self.switch_mediator_app.disable()
-        elif self.the_cat.status == "medicine cat":
+        elif self.the_cat.status == "medicine fox":
             self.promote_leader.disable()
             self.promote_deputy.disable()
 
@@ -362,7 +363,7 @@ class RoleScreen(Screens):
             self.switch_med_app.disable()
             self.switch_warrior_app.disable()
             self.switch_mediator_app.disable()
-        elif self.the_cat.status == "medicine cat apprentice":
+        elif self.the_cat.status == "medicine fox apprentice":
             self.promote_leader.disable()
             self.promote_deputy.disable()
 
@@ -438,11 +439,11 @@ class RoleScreen(Screens):
                      f"leader. As dictated by the Warrior Code, all deputies must train at least one apprentice " \
                      f"before appointment.  " \
                      f"The deputy succeeds the leader if they die or retire. "
-        elif self.the_cat.status == "medicine cat":
-            output = f"{self.the_cat.name} is a <b>medicine cat</b>. Medicine cats are the healers of the Clan. " \
+        elif self.the_cat.status == "medicine fox":
+            output = f"{self.the_cat.name} is a <b>medicine fox</b>. Medicine foxes are the healers of the Clan. " \
                      f"They treat " \
-                     f"injuries and illnesses with herbal remedies. Unlike warriors, medicine cats are not expected " \
-                     f"to hunt and fight for the Clan. In addition to their healing duties, medicine cats also have " \
+                     f"injuries and illnesses with herbal remedies. Unlike warriors, medicine foxes are not expected " \
+                     f"to hunt and fight for the Clan. In addition to their healing duties, medicine foxes also have " \
                      f"a special connection to StarClan. Every half-moon, they travel to their Clan's holy place " \
                      f"to commune with StarClan. "
         elif self.the_cat.status == "mediator":
@@ -465,10 +466,10 @@ class RoleScreen(Screens):
                      f"to an single warrior - their mentor. To build character, apprentices are often assigned " \
                      f"the unpleasant and grunt tasks of Clan life. Apprentices take the suffix \"paw\", " \
                      f"to represent the path their paws take towards adulthood. "
-        elif self.the_cat.status == "medicine cat apprentice":
-            output = f"{self.the_cat.name} is a <b>medicine cat apprentice</b>, training to become a full medicine cat. " \
-                     f"Kits can be made medicine cat apprentices at six moons of age, where they will learn how to " \
-                     f"heal their Clanmates and commune with StarClan. Medicine cat apprentices are typically chosen " \
+        elif self.the_cat.status == "medicine fox apprentice":
+            output = f"{self.the_cat.name} is a <b>medicine fox apprentice</b>, training to become a full medicine fox. " \
+                     f"Kits can be made medicine fox apprentices at six moons of age, where they will learn how to " \
+                     f"heal their Clanmates and commune with StarClan. Medicine fox apprentices are typically chosen " \
                      f"for their interest in healing and/or their connecting to StarClan. Apprentices take the suffix " \
                      f"-paw, to represent the path their paws take towards adulthood."
         elif self.the_cat.status == "mediator apprentice":
@@ -477,15 +478,15 @@ class RoleScreen(Screens):
                      f"Mediator apprentices are often chosen for their quick thinking and steady personality. " \
                      f"Apprentices take the suffix \"paw\", " \
                      f"to represent the path their paws take towards adulthood. "
-        elif self.the_cat.status == "kitten":
-            output = f"{self.the_cat.name} is a <b>kitten</b>. All cats below the age of six moons are " \
+        elif self.the_cat.status == "cub":
+            output = f"{self.the_cat.name} is a <b>cub</b>. All cats below the age of six moons are " \
                      f"considered kits. Kits " \
                      f"are prohibited from leaving camp in order to protect them from the dangers of the wild. " \
                      f"Although they don't have any official duties in the Clan, they are expected to learn the " \
                      f"legends and traditions of their Clan. They are protected by every cat in the Clan and always " \
                      f"eat first. Kit take the suffix \"kit\"."
         elif self.the_cat.status == "newborn":
-            output = f"{self.the_cat.name} is a <b>newborn kitten</b>. All cats below the age of six moons are " \
+            output = f"{self.the_cat.name} is a <b>newborn cub</b>. All cats below the age of six moons are " \
                      f"considered kits. Kits " \
                      f"are prohibited from leaving camp in order to protect them from the dangers of the wild. " \
                      f"Although they don't have any official duties in the Clan, they are expected to learn the " \

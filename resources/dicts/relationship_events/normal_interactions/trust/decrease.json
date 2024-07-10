@@ -53,7 +53,7 @@
 			"dislike_40"
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"trust": "decrease",
@@ -93,7 +93,7 @@
 			"m_c feels worse after r_c gave {PRONOUN/m_c/object} the wrong treatment for something minor."
 		],
 		"random_status_constraint": [
-			"medicine cat"
+			"medicine fox"
 		]
 	},
 	{
@@ -102,13 +102,13 @@
 		"interactions": [
 			"m_c is dissatisfied that r_c can't seem to get rid of {PRONOUN/m_c/poss} chronic pain.",
 			"m_c is upset that r_c seems to ignore {PRONOUN/r_c/object} more than the other cats.",
-			"m_c thinks that r_c prioritizes other cat's issues instead of m_c's chronic ones."
+			"m_c thinks that r_c prioritizes other fox's issues instead of m_c's chronic ones."
 		],
 		"main_status_constraint": [
 			"elder"
 		],
 		"random_status_constraint": [
-			"medicine cat"
+			"medicine fox"
 		]
 	},
 	{
@@ -118,11 +118,11 @@
 			"m_c accuses r_c of treating cats incorrectly on purpose!",
 			"m_c saw r_c bringing deathberries into the medicine den.",
 			"r_c was rough with m_c during a recent treatment.",
-			"m_c isn't sure why r_c became a medicine cat at all since {PRONOUN/r_c/subject} {VERB/r_c/seem/seems} to not like helping any cats.",
+			"m_c isn't sure why r_c became a medicine fox at all since {PRONOUN/r_c/subject} {VERB/r_c/seem/seems} to not like helping any cats.",
 			"m_c wouldn't be surprised if r_c faked signs from StarClan..."
 		],
 		"random_status_constraint": [
-			"medicine cat"
+			"medicine fox"
 		],
 		"random_trait_constraint": [
 			"cold",
@@ -138,10 +138,10 @@
 			"m_c growls frustratingly at r_c when {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} pay attention to m_c's health concerns... again.",
 			"m_c looks for r_c for treatment on a minor wound, only to find {PRONOUN/r_c/object} playing with catmint!",
 			"m_c hopes to never have a serious illness with r_c in charge of treatments...",
-			"m_c complains that r_c never takes {PRONOUN/r_c/poss} role of medicine cat seriously."
+			"m_c complains that r_c never takes {PRONOUN/r_c/poss} role of medicine fox seriously."
 		],
 		"random_status_constraint": [
-			"medicine cat"
+			"medicine fox"
 		],
 		"random_trait_constraint": [
 			"oblivious",
@@ -155,7 +155,7 @@
 			"m_c cowers away from r_c after r_c barks an order at {PRONOUN/m_c/object}.",
 			"After hearing r_c's most recent demands, m_c is concerned about the future of the Clan.",
 			"m_c doesn't believe that r_c has the Clan's best interests in mind.",
-			"m_c doesn't understand how StarClan could grant a cat as cold and uncaring as r_c nine lives.",
+			"m_c doesn't understand how StarClan could grant a fox as cold and uncaring as r_c nine lives.",
 			"When it comes down to it, m_c doesn't think {PRONOUN/m_c/subject} could follow r_c's every order."
 		],
 		"random_status_constraint": [

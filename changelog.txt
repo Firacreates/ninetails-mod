@@ -1,12 +1,8 @@
-<strong>v0.11.2</strong>
+<strong>Clangen</strong>
 - Fix: ensure that the changelog is read as UTF-8
 - Fix: issue with manual feeding with tactic "low nutrition first"
 - Fix: edge case of a cat has the exiled status, but is not outside
-
-<strong>v0.11.1</strong>
 - Fix: The changelog. Yep, just the changelog. Yes, it happened again-
-
-<strong>v0.11.0</strong>
 - Feature: Freshkill pile & nutrition system
 - Feature: "Destroy accessory" button
 - Content: Lakeside Forest Background

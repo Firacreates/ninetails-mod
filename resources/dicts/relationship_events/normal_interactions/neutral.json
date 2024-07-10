@@ -15,15 +15,15 @@
 			"m_c is checking on r_c."
 		],
 		"main_status_constraint": [
-			"medicine cat",
+			"medicine fox",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"mediator apprentice",
-			"medicine cat apprentice",
+			"medicine fox apprentice",
 			"warrior",
 			"mediator"
 		]
@@ -95,7 +95,7 @@
 		"interactions": [
 			"m_c always seems to avoid r_c's attempts at small talk.",
 			"r_c is amused at how m_c manages to look so grumpy all the time.",
-			"m_c avoids running into any cat, but r_c interrupts {PRONOUN/m_c/poss} peaceful silence.",
+			"m_c avoids running into any fox, but r_c interrupts {PRONOUN/m_c/poss} peaceful silence.",
 			"m_c stares at r_c with an unreadable expression."
 		],
 		"main_trait_constraint": [

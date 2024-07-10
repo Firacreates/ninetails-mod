@@ -35,10 +35,10 @@
 			"m_c accuses r_c of cheating during a game of hide-n-seek!"
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
@@ -161,8 +161,8 @@
 			"vengeful"
 		],
 		"random_status_constraint": [
-			"medicine cat",
-			"medicine cat apprentice"
+			"medicine fox",
+			"medicine fox apprentice"
 		]
 	}
 ]
